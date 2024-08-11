@@ -14,9 +14,11 @@
       </h1>
       <div class="display">
         <input type="text" placeholder="Password" id="password" />
-        <img src="copy.png" alt="img" />
+        <img src="copy.png" alt="img" onclick="copyPassword()" />
       </div>
-      <button><img src="generate.png" alt="img" />Generate Password</button>
+      <button onclick="createPassword()">
+        <img src="generate.png" alt="img" />Generate Password
+      </button>
     </div>
 
     <script src="script.js"></script>
